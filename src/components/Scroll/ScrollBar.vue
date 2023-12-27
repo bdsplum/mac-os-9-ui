@@ -40,10 +40,25 @@
     import { onMounted, computed, ref } from 'vue';
 
     const props = defineProps({
+        /**
+         * Whether the scroll bar is vertical
+         */
         vertical: Boolean,
+        /**
+         * Whether the scroll bar is horizontal
+         */
         horizontal: Boolean,
+        /**
+         * The height of the scrollable area
+         */
         scrollMax: Number,
+        /**
+         * The height of the visible area
+         */
         visibleMax: Number,
+        /**
+         * The current scroll position
+         */
         current: Number
     });
 

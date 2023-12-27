@@ -1,7 +1,5 @@
 https://infinitemac.org/2000/Mac%20OS%209.0.4
 
-- background / font
-- scroll bars
 - header
     - buttons + title
 - card
