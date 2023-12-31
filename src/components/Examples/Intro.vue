@@ -7,7 +7,7 @@
             />
             <div class="intro__title">Mac OS 9 UI</div>
         </div>
-        <p class="intro__text">A collection of Vue 3 components recreating the beatiful styling from Mac OS 9.</p>
+        <p class="intro__text">A collection of Vue 3 components recreating the beautiful styling from Mac OS 9.</p>
     </div>
 </template>
 

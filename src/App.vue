@@ -3,6 +3,7 @@
     import WindowExample from './components/Examples/WindowExample.vue';
     import StickyExample from './components/Examples/StickyExample.vue';
     import ProgressExample from './components/Examples/ProgressExample.vue';
+    import ListExample from './components/Examples/ListExample.vue';
     import Intro from './components/Examples/Intro.vue';
 </script>
 
@@ -12,6 +13,7 @@
         <div class="content">
             <WindowExample />
             <StickyExample />
+            <ListExample />
             <ProgressExample />
         </div>
     </ScrollContainer>
