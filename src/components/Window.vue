@@ -51,6 +51,7 @@
         box-shadow: inset 1px 1px white, inset -1px -1px #999999;
         display: flex;
         flex-direction: column;
+        box-sizing: border-box;
 
         &__header {
             height: 22px;

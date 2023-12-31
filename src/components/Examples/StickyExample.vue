@@ -11,6 +11,7 @@
                 width="200" 
                 height="150"
                 theme="blue"
+                class="example--blue"
             >
                 A blue sticky!
             </StickyNote>
@@ -18,6 +19,7 @@
                 width="200" 
                 height="150"
                 theme="grey"
+                class="example--grey"
             >
                 A grey sticky!
             </StickyNote>
@@ -39,5 +41,15 @@
 </script>
 
 <style lang="scss" scoped>
-    
+    .example {
+        &--blue {
+            margin-left: 100px;
+            margin-top: -100px;
+        }
+
+        &--grey {
+            margin-left: 270px;
+            margin-top: -200px;
+        }
+    }
 </style>

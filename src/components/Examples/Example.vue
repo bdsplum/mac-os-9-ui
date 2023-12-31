@@ -1,26 +1,24 @@
 <template>
-    <div class="row">
-        <div class="example">
-            <slot name="component"/>
-        </div>
-        <div class="docs">
-            <StickyNote
-                width="200"
-                height="150"
-                theme="red"
-                class="docs--title"
-            >
-                {{ name }}
-            </StickyNote>
-            <StickyNote
-                width="200"
-                height="150"
-                theme="green"
-                class="docs--info"
-            >
-                <slot name="docs" />
-            </StickyNote>
-        </div>
+    <div class="example">
+        <slot name="component"/>
+    </div>
+    <div class="docs">
+        <StickyNote
+            width="200"
+            height="150"
+            theme="red"
+            class="docs--title"
+        >
+            {{ name }}
+        </StickyNote>
+        <StickyNote
+            width="200"
+            height="150"
+            theme="green"
+            class="docs--info"
+        >
+            <slot name="docs" />
+        </StickyNote>
     </div>
 </template>
 
@@ -33,12 +31,6 @@
 </script>
 
 <style lang="scss" scoped>
-    .row {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-    }
-
     .docs {
         position: relative;
 

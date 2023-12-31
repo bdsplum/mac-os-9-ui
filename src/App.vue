@@ -15,9 +15,10 @@
 
 <style scoped lang="scss">
     .content {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
+        display: grid;
+        grid-template-columns: 700px 250px;
+        justify-content: center;
         padding: 20px;
+        gap: 20px;
     }
 </style>
