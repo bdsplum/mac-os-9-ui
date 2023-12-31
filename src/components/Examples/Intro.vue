@@ -52,6 +52,7 @@
         &__text {
             margin-bottom: 0;
             text-align: center;
+            font-size: 12px;
         }
     }
 </style>

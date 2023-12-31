@@ -4,6 +4,7 @@
     import StickyExample from './components/Examples/StickyExample.vue';
     import ProgressExample from './components/Examples/ProgressExample.vue';
     import ListExample from './components/Examples/ListExample.vue';
+    import ScrollExample from './components/Examples/ScrollExample.vue';
     import Intro from './components/Examples/Intro.vue';
 </script>
 
@@ -15,6 +16,7 @@
             <StickyExample />
             <ListExample />
             <ProgressExample />
+            <ScrollExample />
         </div>
     </ScrollContainer>
 </template>
@@ -24,7 +26,7 @@
         display: grid;
         grid-template-columns: 700px 250px;
         justify-content: center;
-        padding: 20px;
+        padding: 30px;
         column-gap: 20px;
         row-gap: 60px;
     }
