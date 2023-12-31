@@ -93,6 +93,7 @@
             flex: 1 1 auto;
             height: 1px;
             background-color: $grey-5;
+            margin-bottom: 1px;
             box-shadow: -1px -5px white, 0px -4px $grey-5, -1px -3px white, 0px -2px $grey-5, -1px -1px white, -1px 1px white, 0px 2px $grey-5, -1px 3px white, 0px 4px $grey-5, -1px 5px white, 0px 6px $grey-5;
         }
 

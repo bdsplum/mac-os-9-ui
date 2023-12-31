@@ -5,6 +5,7 @@
     import ProgressExample from './components/Examples/ProgressExample.vue';
     import ListExample from './components/Examples/ListExample.vue';
     import ScrollExample from './components/Examples/ScrollExample.vue';
+    import TabExample from './components/Examples/TabExample.vue';
     import Intro from './components/Examples/Intro.vue';
 </script>
 
@@ -14,6 +15,7 @@
         <div class="content">
             <WindowExample />
             <StickyExample />
+            <TabExample />
             <ListExample />
             <ProgressExample />
             <ScrollExample />

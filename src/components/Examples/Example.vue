@@ -31,7 +31,7 @@
 
 <style lang="scss" scoped>
     .docs {
-        position: relative;
+        min-height: 150px;
 
         &--title {
             font-family: helvetica;
