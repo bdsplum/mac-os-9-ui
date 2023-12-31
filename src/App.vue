@@ -3,10 +3,12 @@
     import WindowExample from './components/Examples/WindowExample.vue';
     import StickyExample from './components/Examples/StickyExample.vue';
     import ProgressExample from './components/Examples/ProgressExample.vue';
+    import Intro from './components/Examples/Intro.vue';
 </script>
 
 <template>
     <ScrollContainer>
+        <Intro class="app-start" />
         <div class="content">
             <WindowExample />
             <StickyExample />
@@ -23,5 +25,9 @@
         padding: 20px;
         column-gap: 20px;
         row-gap: 60px;
+    }
+
+    .app-start {
+        margin-top: 20px;
     }
 </style>

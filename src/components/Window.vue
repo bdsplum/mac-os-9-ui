@@ -48,7 +48,7 @@
         border: 1px solid black;
         padding: 0 5px 5px;
         background-color: $grey-3;
-        box-shadow: inset 1px 1px white, inset -1px -1px #999999;
+        box-shadow: inset 1px 1px white, inset -1px -1px $grey-8;
         display: flex;
         flex-direction: column;
         box-sizing: border-box;

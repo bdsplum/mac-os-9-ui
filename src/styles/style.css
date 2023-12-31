@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: "AppleGaramond";
-    src: url("AppleGaramond.ttf") format("opentype");
+    src: url("AppleGaramond-Light.ttf") format("opentype");
 }
 
 :root {
