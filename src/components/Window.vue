@@ -33,11 +33,11 @@
         /**
          * Optional card height
          */
-        height: Number,
+        height: [Number, String],
         /**
          * Optional card width
          */
-        width: Number
+        width: [Number, String]
     });
 </script>
 

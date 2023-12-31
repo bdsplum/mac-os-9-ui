@@ -41,9 +41,8 @@
         }
 
         &--info {
-            position: absolute;
-            top: 50px;
-            left: 40px;
+            margin-top: -120px;
+            margin-left: 50px;
 
             &:deep(ul) {
                 padding-inline-start: 20px;

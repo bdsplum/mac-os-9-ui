@@ -13,11 +13,11 @@
         /**
          * Optional sticky height
          */
-        height: Number,
+        height: [Number, String],
         /**
          * Optional sticky width
          */
-        width: Number,
+        width: [Number, String],
         /**
          * The sticky theme - 'yellow', 'grey', 'blue', 'green' or 'red'
          */
