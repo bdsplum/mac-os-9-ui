@@ -3,6 +3,11 @@
     src: url("CHARCOAL.TTF") format("opentype");
 }
 
+@font-face {
+    font-family: "AppleGaramond";
+    src: url("AppleGaramond.ttf") format("opentype");
+}
+
 :root {
     font-family: Charcoal, Arial, sans-serif;
     line-height: 1.5;

@@ -220,7 +220,7 @@
 
             &:hover {
                 background-color: $grey-5;
-                box-shadow: inset 1px 1px #585858, inset -1px -1px #999999;
+                box-shadow: inset 1px 1px #585858, inset -1px -1px $grey-8;
             }
         }
 

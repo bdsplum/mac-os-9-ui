@@ -26,7 +26,9 @@
                 :current="scrollLeft"
                 @scroll="scrollTo($event)"
             />
-            <div class="scroll__corner"></div>
+            <div class="scroll__corner">
+                <div class="scroll__corner-handle"></div>
+            </div>
         </div>
     </div>
 </template>
@@ -77,6 +79,8 @@
      * @param {Event} e - the mouse wheel event
      */
     function mousewheel(e) {
+        // todo: conditional stop propagation if there is nothing to scroll?
+
         if(!content?.value) {
             return;
         }
@@ -138,11 +142,24 @@
         }
 
         &__corner {
-            border: 1px solid black;
+            border: 1px solid;
+            border-color: black transparent transparent black;
             width: 16px;
             height: 16px;
             flex: 0 0 auto;
             background-color: $grey-3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: inset 1px 1px white;
+
+            &-handle {
+                width: 8px;
+                height: 1px;
+                transform: rotate(135deg);
+                background-color: $grey-5;
+                box-shadow: 0px 3px white, 0px 2px $grey-5, 0px 1px white, 0px -1px white, 0px -2px $grey-5;
+            }
         }
     }
 </style>
