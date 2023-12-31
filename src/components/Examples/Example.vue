@@ -13,7 +13,6 @@
         </StickyNote>
         <StickyNote
             width="200"
-            height="150"
             theme="green"
             class="docs--info"
         >
@@ -46,11 +45,11 @@
             top: 50px;
             left: 40px;
 
-            ul {
+            &:deep(ul) {
                 padding-inline-start: 20px;
             }
 
-            li {
+            &:deep(li) {
                 list-style-type: square;
             }
         }

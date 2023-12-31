@@ -20,8 +20,20 @@
         <template #docs>
             A generic card component in the style of a finder window.
             <ul>
-                <li>width</li>
-                <li>height</li>
+                <li>
+                    width
+                    <ul>
+                        <li>Number</li>
+                        <li>Optional width in pixels of the window</li>
+                    </ul>
+                </li>
+                <li>
+                    height
+                    <ul>
+                        <li>Number</li>
+                        <li>Optional height in pixels of the window</li>
+                    </ul>
+                </li>            
             </ul>
         </template>
     </Example>

@@ -27,9 +27,27 @@
         <template #docs>
             A generic card component in the style of a sticky note.
             <ul>
-                <li>width</li>
-                <li>height</li>
-                <li>theme</li>
+                <li>
+                    width
+                    <ul>
+                        <li>Number</li>
+                        <li>Optional width in pixels of the note</li>
+                    </ul>
+                </li>
+                <li>
+                    height
+                    <ul>
+                        <li>Number</li>
+                        <li>Optional height in pixels of the note</li>
+                    </ul>
+                </li>  
+                <li>
+                    theme
+                    <ul>
+                        <li>String</li>
+                        <li>Options: yellow, green, red, blue, grey</li>
+                    </ul>
+                </li>
             </ul>
         </template>
     </Example>

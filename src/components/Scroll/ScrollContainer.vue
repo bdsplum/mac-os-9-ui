@@ -4,7 +4,7 @@
             <div 
                 ref="content"
                 class="scroll__content"
-                @mousewheel.stop.passive="mousewheel"
+                @mousewheel.passive="mousewheel"
             >
                 <slot />
             </div>
@@ -79,7 +79,9 @@
      * @param {Event} e - the mouse wheel event
      */
     function mousewheel(e) {
-        // todo: conditional stop propagation if there is nothing to scroll?
+        if((scrollHeight.value - height.value) > 0 || (scrollWidth.value - width.value) > 0) {
+            e.stopPropagation();
+        }
 
         if(!content?.value) {
             return;
