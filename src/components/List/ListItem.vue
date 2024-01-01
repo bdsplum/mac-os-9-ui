@@ -1,11 +1,11 @@
 <template>
-    <div 
+    <a 
         class="list-item"
         :class="{ 'list-item--disabled': disabled }"
         @click="emits('click')"
     >
         <slot />
-    </div>
+    </a>
 </template>
 
 <script setup>
@@ -26,6 +26,7 @@
         font-size: 14px;
         padding: 1px 15px;
         cursor: pointer;
+        flex-grow: 1;
 
         &--disabled {
             cursor: default;

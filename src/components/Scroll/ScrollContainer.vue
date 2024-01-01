@@ -4,7 +4,7 @@
             <div 
                 ref="content"
                 class="scroll__content"
-                @mousewheel.passive="mousewheel"
+                @wheel.passive="mousewheel"
             >
                 <slot />
             </div>

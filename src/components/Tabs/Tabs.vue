@@ -50,7 +50,7 @@
             background-color: $grey-2;
             box-shadow: inset 1px 1px white, inset -1px -1px $grey-3;
             margin-top: -1px;
-            font-size: 14px;
+            font-size: 12px;
             padding: 8px;
             box-sizing: border-box;
         }
