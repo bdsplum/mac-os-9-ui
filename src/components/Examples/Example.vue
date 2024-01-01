@@ -1,5 +1,5 @@
 <template>
-    <div class="example">
+    <div class="example" :id="name">
         <slot name="component"/>
     </div>
     <div class="docs">

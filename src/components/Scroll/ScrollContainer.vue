@@ -5,6 +5,7 @@
                 ref="content"
                 class="scroll__content"
                 @wheel.passive="mousewheel"
+                @scroll.passive="updateSizes"
             >
                 <slot />
             </div>

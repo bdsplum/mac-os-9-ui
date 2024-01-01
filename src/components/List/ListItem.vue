@@ -2,6 +2,7 @@
     <a 
         class="list-item"
         :class="{ 'list-item--disabled': disabled }"
+        :href="href"
         @click="emits('click')"
     >
         <slot />
@@ -13,7 +14,11 @@
         /**
          * Whether the item is disabled
          */
-        disabled: Boolean
+        disabled: Boolean,
+        /**
+         * An optional target
+         */
+        href: String
     });
 
     const emits = defineEmits(['click']);
@@ -26,7 +31,8 @@
         font-size: 14px;
         padding: 1px 15px;
         cursor: pointer;
-        flex-grow: 1;
+        text-decoration: none;
+        color: black;
 
         &--disabled {
             cursor: default;
