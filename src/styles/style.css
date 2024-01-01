@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Charcoal";
-    src: url("CHARCOAL.TTF") format("opentype");
+    src: local('CHARCOAL'), url(../assets/CHARCOAL.TTF) format('truetype');
 }
 
 @font-face {
     font-family: "AppleGaramond";
-    src: url("AppleGaramond-Light.ttf") format("opentype");
+    src: local('AppleGaramond-Light'), url(../assets/AppleGaramond-Light.ttf) format('truetype');
 }
 
 :root {
