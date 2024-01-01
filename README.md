@@ -9,10 +9,10 @@ Visit [here](https://bdsplum.github.io/mac-os-9-ui/) to see it in action!
 ## Todo
 
  - Add more components
- -- Text input
- -- Dropdown
- -- Checkbox
- -- Slider
- -- Range of buttons
+    - Text input
+    - Dropdown
+    - Checkbox
+    - Slider
+    - Range of buttons
  - Package components for 3rd party use
  - Be less lazy and update documentation to include slots/events :) 
